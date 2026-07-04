@@ -7,8 +7,7 @@ import Header from './components/Header';
 const generateClassName = createGenerateClassName({
     productionPrefix: 'co',
 });
-export default () => {
-
+export default (history) => {
     return (
         <>
             <StylesProvider generateClassName={generateClassName}>
